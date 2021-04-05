@@ -1,0 +1,77 @@
+/*1) To find a number is palindrome or not *\
+
+let i,palindrome_num=12321, rev_pal, final_pal=0;
+let temp=palindrome_num; 
+for(i=0;i<(palindrome_num+"").length;i++){
+  rev_pal=temp%10;
+  temp=parseInt(temp/10);
+  /* without using parseInt */
+  temp=temp-temp%1;
+  final_pal=final_pal*10+rev_pal;
+}
+if(final_pal===palindrome_num)
+  console.log("Is a palindrome");
+else
+  console.log("not a palindrome");
+
+/* 2) to print the pattern */
+let i,str="";
+for(i=0;i<5;i++)
+{
+  console.log(str+="*");
+}
+
+/* 3)to print fibanocci series */
+
+let fib_num=0, prev_num1=1, prev_num2=1;
+console.log(prev_num1);
+console.log(prev_num2);
+while(prev_num2+prev_num1<100)
+{
+  fib_num=prev_num1+prev_num2;
+  console.log(fib_num);
+  prev_num1=prev_num2;
+  prev_num2=fib_num;
+ 
+}
+/* 4) xxWrite a program to check whether ‘pineapple’ is present in an array*/
+
+let i=0,arr = ['apple','banana','mango','pineapple'];
+while(i<arr.length)
+{
+  if(arr[i]=='pineapple'){
+    console.log(true);
+    break;
+  }
+  else if(i==arr.length-1){
+    console.log(false);
+    break;
+  }
+  else
+    i++;
+}
+
+/* 5)Write a Program to check a given year is leap year or not */
+
+let given_year=1904;
+
+if((given_year%100==0 && given_year%400==0) || (given_year%4==0 && given_year%100!=0))
+{
+  console.log('Leap year');
+}
+else
+{
+  console.log('not a leap year');
+}
+
+/* 6) Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit. */
+
+let celsius=35, fahrenheit;
+/* converting from celsius to fahrenheit */
+fahrenheit=(celsius*1.8)+32;
+console.log(fahrenheit);
+/* converting from fahrenheit to celsius */
+celsius=(fahrenheit-32)/1.8;
+console.log(celsius);
+
+
