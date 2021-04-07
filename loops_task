@@ -6,7 +6,7 @@ for(i=0;i<(palindrome_num+"").length;i++){
   rev_pal=temp%10;
   temp=parseInt(temp/10);
   /* without using parseInt */
-  temp=temp-temp%1;
+  /* temp=temp-temp%1; */
   final_pal=final_pal*10+rev_pal;
 }
 if(final_pal===palindrome_num)
