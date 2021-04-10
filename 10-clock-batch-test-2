@@ -1,0 +1,163 @@
+ 				 Name: Harshavardhan Reddy
+ 
+1)	If You give margin to inline element it will apply to ___all sides____
+a)	Top and bottom  b) Left and Right c) All sides D) No sides
+ Ans: c)all sides.
+
+      2)  Which of the following is true about visibility: hidden
+a)	It occupies space
+b)	 It is removed from the layout flow 
+c)	 It can still be clicked on 
+d)	It is the same as opacity : 0 
+Ans: a)it occupies space.
+
+    3) 
+HTML
+
+<div class=”container”>
+Some Text
+</div>
+
+Css
+.container{
+font-size : 15px;
+background-color : blue;
+Color : white;
+padding : 5em;
+}
+How many pixels of padding the above layout will take
+
+____________________80 pixels_________________________________________________
+ 
+4) Explain Margin-collapse and when it will occur?
+
+_____________________________________________________________________
+
+5) Write all the data types in Javascript
+___Number, String, undefined, object, boolean. __________________________________________________________________
+
+6) What is difference between primitive data types and non primitive data types:  Ans: Primitive data types: Primitive data types are immutable data types and also predefined data types.
+Non- primitive data types: Non- primitive data types are mutable data types ._______________________________
+
+7) What is the output of following code
+
+var bool = true;
+let result =  bool ? ‘one’ : ‘two’;
+console.log(result);
+
+_Ans: one______________________________________________________________
+
+8) How to center a div to web page using flex properties (write css code)
+
+.div{
+Justify content: center;
+Align items: center;
+}
+
+9) What is the difference between undefined and null in JavaScript?
+
+__________
+UNDEFINED	NULL
+A variable is declared but not defined yet	It is a value that can be assigned and the value means nothing
+Typeof is undefined	Typeof is object
+	
+__________
+
+10) What is difference between box-sizing : content-box and box-sizing : border-box in CSS?
+
+____________
+BOX-SIZING: border-box	BOX-SIZING: content-box
+Not default	Default
+The width and height includes all the properties like, padding, border and content	The width and height includes only the content. Remaining border, padding are not included.
+Example: 
+box-sizing: border-box;
+  width: 100px;
+  height:50px;
+  padding: 30px;  
+  border: 10px;
+
+Over-all width element is : 100px
+And height is: 50px.
+
+
+
+
+
+	Example: 
+box-sizing: content-box;
+  width: 100px;
+  height:50px;
+  padding: 30px;  
+  border: 10px;
+
+Over-all width element is : 180px
+And height is: 130px.
+_________
+
+11) What is the output of following code
+
+console.log(typeof null);
+
+A	Number	B	Object	C	Undefined	D	None of these
+
+ANS: B. Object.
+
+12) What is the output of following code
+let firstValue=10,secondValue=20, 
+
+if((firstValue<=10 && secondValue>=15)) || (secondValue < 40)){
+console.log(‘true’); 
+}
+else{
+console.log(‘false’);
+}
+
+ANS: error(because of the brackets for if loop)
+13)  	Giving which property the parent element will be not get effected by the child float property?
+
+_________________!important__________________
+
+14) 
+    HTML 
+  <div class=”container>
+     <p class=”child”> CSS is awesome </p>
+</div>
+CSS
+.container{
+border : 1px solid red;
+}
+.child{
+color : current-color;
+border : 2px solid initial;
+}
+
+What is the border color of   p tag ?
+ANS: May be no color(want to know more about this)
+
+15)    You have to make the given layout to vertical using flex , Write you CSS code below
+
+ 
+
+.container{
+Display: flex;
+Flex-direction: column;
+Justify-content: gap-around;
+}
+ 16) 
+HTML
+<div class=”main__product” id=”product”> AchieversIT Training Institute Bangalore </div>
+*{
+color : lightgreen;
+}
+.main__product{
+color : red;
+}
+#product{
+color : blue;
+}
+div{
+color : orange
+}
+Which color will be applied to text ?
+_________________BLUE_______________________________________
+
